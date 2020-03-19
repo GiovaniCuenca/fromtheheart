@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            // "auth/*": [ "./src/modules/auth/*" ],
+            // "core/*": [ "./src/modules/core/*" ],
+            // "schedule/*": [ "src/modules/schedule/*" ],
+            // "lead/*": [ "src/modules/lead/*" ],
+            // "leadOffline/*": [ "src/modules/leadOffline/*" ],
+            // "blitz/*": [ "src/modules/blitz/*" ],
+            // "partnership/*": [ "src/modules/partnership/*" ],
+            // "notification/*": [ "./src/modules/notification/*" ],
+            // "score/*": [ "./src/modules/score/*" ],
+            // "synchronize/*": [ "./src/modules/synchronize/*" ],
+            "*": [ "./src/*" ]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
